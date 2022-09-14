@@ -1,0 +1,8 @@
+{
+"info version":"1.1",
+"firmware version":"HD3.02.03.00",
+"wifi version":"3.4.2.18",
+"wifi bootloader version":"0.2.2",
+"wifi mac":"d896852c8444",
+"camera type":"Hero3-Silver Edition",
+}

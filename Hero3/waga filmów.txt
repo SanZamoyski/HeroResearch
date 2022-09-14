@@ -1,0 +1,4 @@
+1080p - 2.0GB/15 min    8.0GB/h   8h -> 64.0GB
+1080p - 1.6GB/15 min    8.0GB/h   8h -> 51.2GB
+980p    1.2GB/15 min    4.8GB/h   8h -> 38.4GB
+720p -  1.5GB/30 min    3.0GB/h   8h -> 24.0GB
