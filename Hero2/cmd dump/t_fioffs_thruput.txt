@@ -1,0 +1,6 @@
+Usage: fioffs_thruput [slot]
+Usage: fioffs_thruput [slot] [bs]
+Usage: fioffs_thruput [slot] [bs] [areas]
+Where
+  bs is an option that means block size
+  areas is an option that means number of areas in all free space

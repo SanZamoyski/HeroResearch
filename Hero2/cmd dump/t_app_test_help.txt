@@ -1,0 +1,12 @@
+Usage: t app test <option>
+Test option list:
+	loop_test
+	profiling
+	debug_dump
+	csc_vin
+	csc_vout
+	osd_bmp
+	vin_rotate
+	thm2_stop_update
+	jack_switch_pb
+	skip_usb_check

@@ -1,0 +1,1 @@
+Usage: fioffs_uc [slot]

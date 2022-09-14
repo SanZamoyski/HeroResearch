@@ -1,0 +1,19 @@
+Usage: stepper_motor [id] stop
+	[id] set [count]
+	config_pat [0~4(pin_num)] [0(upper)/1(bottom)] [pattern]
+	[id] config [bitlen] [pulse_rate] [set_last 0:low|1:high] [hold_last 0:hold|1:set]
+		[repeat_first] [rewind] [repeat_last]
+	[id] ms_stop
+	[id] ms_set [count] [rewind]
+	[id] ms_config [ms3_en] [ms1_en] [con_rpt] 
+		[set_last 0:low|1:high] [hold_last 0:hold|1:set] [pwm_inv]
+		[repeat_first] [repeat_last] [pulse_rate] [pwm_period] [pwm_number]
+	[id] status
+	[id] config_acc_mode [type] [count] [clkdiv0] [clkdiv1][clkdiv2] [clkdiv3]
+	show_pin_pattern
+ default pattern:
+		0xaaaaaaaa, 0xaaaaaaaa
+		0xcccccccc, 0xcccccccc
+		0xf0f0f0f0, 0xf0f0f0f0
+		0xff00ff00, 0xff00ff00
+		0xffff0000, 0xffff0000

@@ -1,0 +1,4 @@
+Usage: t fp_ht1621 [mode] [cmd/addr] [data]
+		[mode] - 0:cmd 1:wr 2:rd
+		[cmd/addr] - command or address
+		[data] - data

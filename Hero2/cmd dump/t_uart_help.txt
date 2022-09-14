@@ -1,0 +1,3 @@
+valid test targets for UART are:
+	uart1_test
+	loopback_test

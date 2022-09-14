@@ -1,0 +1,1 @@
+Usage: paccess_time [slot] [bs] [areas]

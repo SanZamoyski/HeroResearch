@@ -1,0 +1,7 @@
+Usage: disp [op] 
+	 lcdr	- 
+	 csc	- 
+	 wrosd	- addr w h value
+	 dposdbin	- addr w h 
+	 dposdtga	- addr w h 
+	 osdfmt	- chan pxlfmt value 

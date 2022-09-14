@@ -1,0 +1,3 @@
+Usage: volcfg set [drive] -fat value 
+                      -data value 
+		 get [drive]

@@ -1,0 +1,9 @@
+valid test targets for WDT are:
+	start
+	restart
+	stop
+	reset
+	status
+	reb_from
+	rst_wd
+	dump

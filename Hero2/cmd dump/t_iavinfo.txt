@@ -1,0 +1,25 @@
+Usage: iavinfo [info] op
+	valid ops:
+	vid_enc - information of video encode object
+	vid_dec - information of video decode object
+	aud_enc - information of audio encode object
+	aud_dec - information of audio decode object
+	pic_enc - information of picture encode object
+	pic_dec - information of picture decode object
+	raw_enc - information of raw encode object
+	dsp_info- dsp init data
+	dsp_ver - dsp ucode version
+	dsp_msg - dsp message
+	vid_proc- video preprocessing information
+	vout0_info - Vout0 dsp data
+	vout1_info - Vout1 dsp data
+	dsp_cmd [on/off]  - enable/disable dsp command message
+	idsp_cmd [on/off] - enable/disable idsp command message
+	brate [on/show/off/reset] - turn on/show/turn off/reset bit rate counting
+	iavmsg [on/off] - enable/disable iav debug message
+	iavdump [path_file_name] - dump iav debug message to file
+	dspdump [path_name] - dump dsp debug infos to path
+	idspdump [section_id: 0-7] - dump idsp configuration
+	def_cmd - show default commands
+	cmd [u32_0] [u32_1] ... up to [u32_31] - send generic dsp command
+	dsp_binary_data - dump dsp default binary data

@@ -1,0 +1,8 @@
+Usage: fioprf_thruput [slot]
+Usage: fioprf_thruput [slot] [bs]
+Usage: fioprf_thruput [slot] [bs] [areas]
+Usage: fioprf_thruput [slot] [bs] [align] [size]
+Usage: fioprf_thruput [slot] [multi] [num] [bs1] [bs2] ...
+Where
+  bs is an option that means block size
+  areas is an option that means number of areas in all free space

@@ -1,0 +1,4 @@
+Usage: fioprf_lgfvrfy [slot] [bs] [fs] [rand]
+  Where bs is block size. 
+  Where fs is file size to bs tested.
+  Where rand is option means random bs in read.

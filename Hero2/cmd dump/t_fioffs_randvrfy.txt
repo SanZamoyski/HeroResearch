@@ -1,0 +1,5 @@
+Usage: fioffs_randvrfy [slot] [all|times] [delay] [keep]
+  all is an option means to test with all free space
+  times means how many files will be tested
+  delay is an option means ms delay after each file
+  keep is an option means to keep files after test

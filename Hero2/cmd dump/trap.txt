@@ -1,0 +1,1 @@
+Usage: trap [res|pre|dat|und|swi|div0|fdiv0]

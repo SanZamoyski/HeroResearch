@@ -1,0 +1,14 @@
+valid test targets for nand are:
+	rs
+	ws
+	rp
+	br
+	wp
+	cb
+	erase
+	mbb
+	sbb
+	rbb
+	destroy
+	thruput
+	randvrfy

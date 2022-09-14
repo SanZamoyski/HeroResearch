@@ -1,0 +1,8 @@
+cmd mallocs:	97
+cmd frees:	0
+env mallocs:	96
+env frees:	94
+pipe mallocs:	0
+pipe frees:	0
+file opens:	94
+file closes:	93

@@ -1,0 +1,3 @@
+Usage: usbclass [bsc|msc]
+bsc - bitstream class.
+msc - mass storage class.

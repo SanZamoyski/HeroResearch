@@ -1,0 +1,4 @@
+Usage: idc - Read/Write 8 bit register over I2C
+		rdm <i2c bus id> <i2c addr> <reg> <num>
+		rd  <i2c bus id> <i2c addr> <reg>
+		wr  <i2c bus id> <i2c addr> <reg> <data>
