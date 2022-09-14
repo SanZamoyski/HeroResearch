@@ -1,0 +1,5 @@
+{
+"info version":"1.0",
+"firmware version":"HD2.08.12.312.WIFI.R68.02",
+"camera type":"HD2",
+}
