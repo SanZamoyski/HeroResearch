@@ -1,0 +1,2 @@
+icache = on
+dcache = on

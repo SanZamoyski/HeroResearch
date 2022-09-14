@@ -1,0 +1,45 @@
+Usage: cardmgr [drive] op
+	valid ops:
+	info - information of card
+	insert - software insert
+	eject - software eject
+	suspend - suspend card operations
+	resume - resume card operations
+	sync - sync card operations
+	en_ffmon - enable free fall monitor
+	dis_ffmon - disable free fall monitor
+	set_susp_act - set suspend action [action]
+	get_susp_act - get suspend action
+	mount [slot]
+	unmount [slot]
+	fast_ecn [slot] [pages]
+	reinit - re-initialize devices operations
+		SD working frequence:
+			[KHz]
+		CF transfer mode list:
+			pccard_mem
+			pccard_cont_io
+			pccard_pri_io
+			pccard_sec_io
+			ide_pio[0|1|2|3|4|5|6]
+			ide_mdma[0|1|2|3|4]
+			ide_udma[0|1|2|3|4]
+	set_pm [val]
+	get_pm
+	iostat_enable
+	iostat_disable
+	iostat [diagram bar number]
+	fs_fsi [on|off]
+	fsi_cache_set [1|0]
+	fsi_status
+	fsi_get
+	fat32_ecl
+	fsi_sync
+	fsi_flush
+	switch [cf|sd2]
+	lock
+	unlock
+	format_unit
+	finalize
+	udf
+	debou

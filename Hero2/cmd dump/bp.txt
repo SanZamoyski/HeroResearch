@@ -1,0 +1,1 @@
+osd=tv_full rec_thm=image hls=enable arm_mon=disable sdk=6110

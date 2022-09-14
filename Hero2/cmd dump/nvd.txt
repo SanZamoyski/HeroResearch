@@ -1,0 +1,7 @@
+Usage: nvd save [pref|calib] [id] [filename]
+       nvd load [pref|calib] [id] [filename]
+       nvd erase [pref|calib|all] [id|all]
+       nvd erase_entire [pref|calib|all]
+       nvd sf [pref|calib|all] [size] [objects]
+       nvd stat [pref|calib|all]
+       nvd deinit [pref|calib|all]

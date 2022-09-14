@@ -1,0 +1,1 @@
+usage: dmesg [rtos|dsp|dsp_debug] -[num lines]

@@ -1,0 +1,8 @@
+valid commands are:
+	openlog
+	closelog
+	disp_all
+	stat
+	display
+	ver
+	set_debug

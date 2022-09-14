@@ -1,0 +1,5 @@
+valid command for sm are:
+	status
+	rs
+	ws
+	erase

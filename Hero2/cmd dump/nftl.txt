@@ -1,0 +1,19 @@
+valid test targets for flash are:
+	rs
+	ws
+	verify
+	pr
+	pw
+	erase
+	thruput
+	init
+	deinit
+	status
+	rclm_bb
+	health
+	bbm
+	l2p
+	p2l
+	ulba
+	uupba
+	mark_bb

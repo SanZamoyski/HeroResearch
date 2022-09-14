@@ -1,0 +1,6 @@
+Usage: ipcstat <command>, where command is:
+	reset
+	ipc
+	mutex
+	lock
+	svcxprt

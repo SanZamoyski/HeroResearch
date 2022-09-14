@@ -1,0 +1,6 @@
+valid targets for firmfl are:
+	prog
+	prog_only
+	prepro
+	postpro
+	gen

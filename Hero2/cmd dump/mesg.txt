@@ -1,0 +1,2 @@
+rtos mesg disabled
+dsp mesg disabled

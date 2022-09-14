@@ -1,0 +1,1 @@
+Usage: cleandir [path] [pattern]

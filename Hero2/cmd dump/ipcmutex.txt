@@ -1,0 +1,2 @@
+Usage: ipcmutex [lock|unlock|dump] id
+       ipcmutex all

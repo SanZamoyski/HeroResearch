@@ -1,0 +1,1 @@
+Usage: md5 [file]

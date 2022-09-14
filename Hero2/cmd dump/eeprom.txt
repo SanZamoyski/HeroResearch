@@ -1,0 +1,1 @@
+EEPROM does not support on this platform!

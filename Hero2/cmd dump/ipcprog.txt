@@ -1,0 +1,225 @@
+=======================
+Registered IPC programs
+servers: i_status i_util i_ffs i_sdresp i_mq i_wifi_display i_dvf2web i_streamer i_heapmem i_example_util i_example_framer i_smarty 
+clients: lk_util lu_util lu_net_config lu_wifi_config lu_dvf2web lu_streamer lu_rappctrl lk_sdresp lu_mq lu_lnxfio_stream lk_example_util lu_smarty lu_example_util lu_example_framer 
+=======================
+
+
+i_status (S) P:0x10000002, V:1 N:3
+0xc031993c    1    4    0 00000000  0 00000000  0      500 lk_status_report
+0xc0319984    2    4    0 00000000  0 00000000  0      500 lk_boss_version_report
+0xc0319b10    3   28    0 00000000  0 00000000  0      500 lk_time_event
+
+i_util (S) P:0x10000001, V:1 N:17
+0xc0319c50    1    0    8 00000000  0 00000000  0      500 itron_gettimeofday
+0xc0319c70    2    4    0 c08bbfac  1 00000000  0      500 itron_printk
+0xc0319d10    3  256    0 00000000  0 00000000  0      500 itron_fixed_printk
+0xc0319df8    4    4    0 00000000  0 00000000  0      500 itron_async_ipc
+0xc0319e40    5    0    0 00000000  0 00000000  0      500 itron_pm_suspend
+0xc0319e88    6    0    0 00000000  0 00000000  0      500 itron_pm_resume
+0xc0319ea8    7    0    0 00000000  0 00000000  0      500 lk_report_ready
+0xc0319ed8    8    0    0 00000000  0 00000000  0      500 lk_report_resume
+0xc0319f08    9    0    0 00000000  0 00000000  0      500 lk_request_suspend
+0xc0319f38   10    0    0 00000000  0 00000000  0      500 lk_request_shutdown
+0xc0319f6c   11    0    8 00000000  0 c08bbfb0  1      500 lk_get_exfb
+0xc0319fb4   12    0    0 00000000  0 00000000  0      500 lk_report_fb_owned
+0xc0319fe4   13    0    0 00000000  0 00000000  0      500 lk_report_fb_released
+0xc031a014   14    0    4 00000000  0 c08bbfb4  1      500 lk_absuspend_check
+0xc031a02c   15    0    0 00000000  0 00000000  0      500 lk_absuspend_enter
+0xc031a044   16    0    0 00000000  0 00000000  0      500 lk_absuspend_exit
+0xc031a0b4   17    8    0 00000000  0 00000000  0      500 lk_set_device_owner
+
+i_ffs (S) P:0x10000100, V:1 N:22
+0xc031a840    1    8    4 c064158c  2 00000000  0      500 vffs_fopen
+0xc031a930    2    4    4 00000000  0 00000000  0      500 vffs_fclose
+0xc031aa40    3   16    4 c08bbfc8  1 00000000  0      500 vffs_fread
+0xc031ab1c    4   16    4 c08bbfcc  1 00000000  0      500 vffs_fwrite
+0xc031ac48    5   12    4 00000000  0 00000000  0      500 vffs_fseek
+0xc031ad1c    6    4    4 00000000  0 00000000  0      500 vffs_fsync
+0xc031adec    7    4    8 00000000  0 00000000  0      500 vffs_ftell
+0xc031aec0    8    4    4 00000000  0 00000000  0      500 vffs_feof
+0xc031b250    9    4   40 c08bbfd0  1 00000000  0      500 vffs_fstat
+0xc031b300   10    4    4 c08bbfd4  1 00000000  0      500 vffs_remove
+0xc031b3b0   11    4    4 c08bbfd8  1 00000000  0      500 vffs_mkdir
+0xc031b478   12    4    4 c08bbfdc  1 00000000  0      500 vffs_rmdir
+0xc031b5b8   13    8  568 c08bbfe0  1 00000000  0      500 vffs_fsfirst
+0xc031b6c8   14    4  568 00000000  0 00000000  0      500 vffs_fsnext
+0xc031afec   15    4   48 c08bbfe4  1 00000000  0      500 vffs_getdev
+0xc031b7f4   16    8    4 c08bbfe8  1 00000000  0      500 vffs_chmod
+0xc031b058   17    4    4 c08bbfec  1 00000000  0      500 vffs_getm3u8
+0xc031b8ec   18    8    4 c0641594  2 00000000  0      500 vffs_rename
+0xc031b0c4   19    4    4 c08bbff0  1 00000000  0      500 vffs_getjpg
+0xc031ba30   20    4    4 c08bbff4  1 00000000  0      500 vffs_set_fscache
+0xc031ba90   21   12    4 c08bbff8  1 00000000  0      500 vffs_read_fscache
+0xc031b130   22    4    4 c08bbffc  1 00000000  0      500 vffs_getmjpg
+
+i_sdresp (S) P:0x10010000, V:1 N:2
+0xc031bd54    1    4  540 00000000  0 00000000  0      500 vsdresp_get
+0xc031bd34    2    4   32 00000000  0 00000000  0      500 vsdinfo_get
+
+i_mq (S) P:0x10013001, V:1 N:1
+0xc031a25c    1  264  264 00000000  0 00000000  0      500 i_mq_send
+
+i_wifi_display (S) P:0x10002000, V:1 N:1
+0xc031bd80    1   16    0 00000000  0 00000000  0      500 wifi_display
+
+i_dvf2web (S) P:0x10001000, V:1 N:1
+0xc031be18    1  388    0 00000000  0 00000000  0      500 dvf2web_display
+
+i_streamer (S) P:0x10003000, V:1 N:11
+0xc031bf30    1   64    0 00000000  0 00000000  0      500 i_streamer_set_serverlink
+0xc031bf50    2    0    8 00000000  0 00000000  0      500 i_streamer_get_iavpool_info
+0xc031c0c0    3    4   32 00000000  0 00000000  0      500 i_streamer_get_framedata
+0xc031c180    4    4  108 00000000  0 00000000  0      500 i_streamer_get_sps_pps
+0xc031c350    5   32    4 00000000  0 00000000  0      500 i_streamer_set_decframe_info
+0xc031c4cc    6   32    4 00000000  0 00000000  0      500 i_streamer_decframe_ready
+0xc031c5ec    7    4    0 00000000  0 00000000  0      500 i_streamer_notify
+0xc031c64c    8    4    4 00000000  0 00000000  0      500 i_streamer_lock
+0xc031c66c    9    4    4 00000000  0 00000000  0      500 i_streamer_unlock
+0xc031c6b0   10    4   12 00000000  0 00000000  0      500 i_streamer_get_audio_config
+0xc031c820   11   68    4 00000000  0 00000000  0      500 i_streamer_set_decode_config
+
+i_heapmem (S) P:0x10003002, V:1 N:1
+0xc031c8dc    1    0    8 00000000  0 00000000  0      500 i_heapmem_get_info
+
+i_example_util (S) P:0x10020001, V:1 N:2
+0xc03168b8    1    0    8 00000000  0 00000000  0      500 i_example_gettimeofday
+0xc03168d8    2  256    0 00000000  0 00000000  0      500 i_example_printk
+
+i_example_framer (S) P:0x10020002, V:1 N:5
+0xc031697c    1    0    8 00000000  0 00000000  0      500 i_example_framer_get_iavpool_info
+0xc0316aec    2    4   32 00000000  0 00000000  0      500 i_example_framer_get_framedata
+0xc0316bcc    3    4    0 00000000  0 00000000  0      500 i_example_framer_notify
+0xc0316c2c    4    4    4 00000000  0 00000000  0      500 i_example_framer_lock
+0xc0316c4c    5    4    4 00000000  0 00000000  0      500 i_example_framer_unlock
+
+i_smarty (S) P:0x10030001, V:1 N:3
+0xc0317418    1    0    0 00000000  0 00000000  0      500 i_smarty_process_scaninit
+0xc0317438    2    0   16 00000000  0 c0640b64  1      500 i_smarty_process_scandir
+0xc0317458    3    0    0 00000000  0 00000000  0      500 i_smarty_process_scanclr
+
+lk_util (C) P:0x20000001, V:1 N:16
+0x00000000    1    0    8 00000000  0 00000000  0      500 linux_gettimeofday
+0x00000000    2    4    0 c07b1e80  1 00000000  0      500 linux_printk
+0x00000000    3    4    0 00000000  0 00000000  0      500 linux_async_ipc
+0x00000000    4    0    0 00000000  0 00000000  0      500 linux_pm_suspend
+0x00000000    5    0    0 00000000  0 00000000  0      500 linux_pm_resume
+0x00000000    6    0    0 00000000  0 00000000  0      500 linux_sync
+0x00000000    7    4    4 00000000  0 00000000  0      500 linux_kmalloc
+0x00000000    8    4    0 00000000  0 00000000  0      500 linux_kfree
+0x00000000    9    4    4 00000000  0 00000000  0      500 linux_vmalloc
+0x00000000   10    4    0 00000000  0 00000000  0      500 linux_vfree
+0x00000000   11    4    4 00000000  0 00000000  0      500 linux_takeover_fb
+0x00000000   12    4    4 00000000  0 00000000  0      500 linux_release_fb
+0x00000000   13    8    4 00000000  0 00000000  0      500 linux_send_key
+0x00000000   14    0   60 00000000  0 00000000  0      500 linux_get_ipcstat
+0x00000000   15    4    0 00000000  0 00000000  0      500 linux_usb_gadget_enable
+0x00000000   16    8    4 c0632404  1 00000000  0      500 linux_ambarella_set_event
+
+lu_util (C) P:0x30000001, V:1 N:4
+0x00000000    1    0    8 00000000  0 00000000  0      500 lud_gettimeofday
+0x00000000    2  256    0 00000000  0 00000000  0      500 lud_printf
+0x00000000    3  256    4 00000000  0 00000000  0       -1 lud_exec
+0x00000000    4  256 4096 00000000  0 00000000  0      500 lud_exec2
+
+lu_net_config (C) P:0x30001000, V:1 N:12
+0x00000000    1    0    4 00000000  0 00000000  0     1500 net_if_refresh
+0x00000000    2    0    4 00000000  0 00000000  0     1500 net_if_num
+0x00000000    3    4    6 00000000  0 00000000  0     1500 net_if_get_name
+0x00000000    4    6   20 00000000  0 00000000  0     1500 net_if_get_status
+0x00000000    5    0   16 00000000  0 00000000  0     1500 net_net_get_status
+0x00000000    6    0    4 00000000  0 00000000  0     1500 net_if_num_param
+0x00000000    7    6    4 00000000  0 00000000  0     1500 net_if_del_param
+0x00000000    8    0    4 00000000  0 00000000  0     1500 net_if_del_all_param
+0x00000000    9   36    4 00000000  0 00000000  0     1500 net_if_set_param
+0x00000000   10    6   36 00000000  0 00000000  0     1500 net_if_get_param
+0x00000000   11    4   36 00000000  0 00000000  0     1500 net_if_get_iparam
+0x00000000   12    6    4 00000000  0 00000000  0     1500 net_if_restart
+
+lu_wifi_config (C) P:0x30001001, V:1 N:18
+0x00000000    1    0   80 00000000  0 00000000  0     5000 wifi_get_status
+0x00000000    2    0    4 00000000  0 00000000  0     5000 wifi_scan
+0x00000000    3    4   80 00000000  0 00000000  0     5000 wifi_scan_get_res
+0x00000000    4    0    4 00000000  0 00000000  0     5000 wifi_db_size
+0x00000000    5    4  324 00000000  0 00000000  0     5000 wifi_db_get
+0x00000000    6  324    4 00000000  0 00000000  0     5000 wifi_db_set
+0x00000000    7   68    4 00000000  0 00000000  0     5000 wifi_db_move
+0x00000000    8   64    4 00000000  0 00000000  0     5000 wifi_db_delete
+0x00000000    9    0    4 00000000  0 00000000  0     5000 wifi_db_delete_all
+0x00000000   10   64    4 00000000  0 00000000  0     5000 wifi_associate
+0x00000000   11    0    4 00000000  0 00000000  0     5000 wifi_off
+0x00000000   12    0    4 00000000  0 00000000  0     5000 wifi_on
+0x00000000   13    8    0 00000000  0 00000000  0     5000 wifi_set_display
+0x00000000   14    4    4 00000000  0 00000000  0     5000 wifi_open_softap_config
+0x00000000   15  256    4 00000000  0 00000000  0     5000 wifi_add_softap_setting
+0x00000000   16    0    4 00000000  0 00000000  0     5000 wifi_close_softap_config
+0x00000000   17    4    4 00000000  0 00000000  0     5000 wifi_softap_on
+0x00000000   18    4    4 00000000  0 00000000  0     5000 wifi_softap_off
+
+lu_dvf2web (C) P:0x30002000, V:1 N:18
+0x00000000    1    0    4 00000000  0 00000000  0     5000 dvf2web_db_size
+0x00000000    2    4  192 00000000  0 00000000  0     5000 dvf2web_db_get
+0x00000000    3  192    4 00000000  0 00000000  0     5000 dvf2web_db_set
+0x00000000    4    0    4 00000000  0 00000000  0     5000 dvf2web_db_del_all
+0x00000000    5    4    4 00000000  0 00000000  0     5000 dvf2web_db_del_index
+0x00000000    6  132    4 00000000  0 00000000  0     5000 dvf2web_upload_queue
+0x00000000    7    0    4 00000000  0 00000000  0     5000 dvf2web_queue_size
+0x00000000    8    4  132 00000000  0 00000000  0     5000 dvf2web_queue_get
+0x00000000    9    0    4 00000000  0 00000000  0     5000 dvf2web_abort
+0x00000000   10    8    0 00000000  0 00000000  0     5000 dvf2web_set_display
+0x00000000   11    0    4 00000000  0 00000000  0     5000 dvf2web_get_progress
+0x00000000   12    0    4 00000000  0 00000000  0     5000 dvf2web_scan_album
+0x00000000   13    0    4 00000000  0 00000000  0     5000 dvf2web_get_album_total_amount
+0x00000000   14    4  265 00000000  0 00000000  0     5000 dvf2web_get_album
+0x00000000   15    4    4 00000000  0 00000000  0     5000 dvf2web_set_active_album
+0x00000000   16  265    4 00000000  0 00000000  0     5000 dvf2web_create_album
+0x00000000   17   64    4 00000000  0 00000000  0     5000 set_active_website
+0x00000000   18    0   64 00000000  0 00000000  0     5000 get_active_website
+
+lu_streamer (C) P:0x30003000, V:1 N:6
+0x00000000    1   44    4 00000000  0 00000000  0      500 lustreamer_encframe_ready
+0x00000000    2 16384    4 00000000  0 00000000  0      500 lustreamer_encdata_via_ipc
+0x00000000    3   12    4 00000000  0 00000000  0      500 lustreamer_encdata_in_iavpool
+0x00000000    4    4    4 00000000  0 00000000  0      500 lustreamer_get_decbuf_validframes
+0x00000000    5   20    4 00000000  0 00000000  0      500 lustreamer_set_decframe_wp
+0x00000000    6    4    0 00000000  0 00000000  0      500 lustreamer_notify
+
+lu_rappctrl (C) P:0x30004000, V:1 N:3
+0x00000000    1    0    0 00000000  0 00000000  0     5000 lu_rappctrl_start
+0x00000000    2    0    0 00000000  0 00000000  0     5000 lu_rappctrl_stop
+0x00000000    3    0    0 00000000  0 00000000  0     5000 lu_rappctrl_terminate
+
+lk_sdresp (C) P:0x20007000, V:1 N:1
+0x00000000    1    4    4 00000000  0 00000000  0      500 lk_sdresp_detect_change
+
+lu_mq (C) P:0x30007000, V:1 N:1
+0x00000000    1  264    0 00000000  0 00000000  0     5000 lu_mq_send
+
+lu_lnxfio_stream (C) P:0x30004001, V:1 N:11
+0x00000000    1  132    4 00000000  0 00000000  0      500 lu_lnxfio_open
+0x00000000    2    4    4 00000000  0 00000000  0      500 lu_lnxfio_close
+0x00000000    3   12    4 00000000  0 00000000  0      500 lu_lnxfio_read
+0x00000000    4   12    4 00000000  0 00000000  0      500 lu_lnxfio_write
+0x00000000    5   12    4 00000000  0 00000000  0      500 lu_lnxfio_seek
+0x00000000    6    4    4 00000000  0 00000000  0      500 lu_lnxfio_eof
+0x00000000    7    4    4 00000000  0 00000000  0      500 lu_lnxfio_tell
+0x00000000    8   12    4 00000000  0 00000000  0      500 lu_lnxfio_bind_mem
+0x00000000    9    8    4 00000000  0 00000000  0      500 lu_lnxfio_finalize_file
+0x00000000   10  132    4 00000000  0 00000000  0      500 lu_lnxfio_update_symlink
+0x00000000   11   64    4 00000000  0 00000000  0      500 lu_lnxfio_set_plist_info
+
+lk_example_util (C) P:0x20020001, V:1 N:2
+0x00000000    1    0    8 00000000  0 00000000  0      500 lk_example_gettimeofday
+0x00000000    2  256    0 00000000  0 00000000  0      500 lk_example_printk
+
+lu_smarty (C) P:0x30008000, V:1 N:1
+0x00000000    1   16    0 c0640e6c  1 00000000  0     3000 lu_smarty_gpcmdrsp
+
+lu_example_util (C) P:0x30020001, V:1 N:2
+0x00000000    1    0    8 00000000  0 00000000  0     3000 lu_example_gettimeofday
+0x00000000    2  256    0 00000000  0 00000000  0     3000 lu_example_printf
+
+lu_example_framer (C) P:0x30020002, V:1 N:2
+0x00000000    1   44    4 00000000  0 00000000  0      500 lu_example_framer_encframe_ready
+0x00000000    2    4    0 00000000  0 00000000  0      500 lu_example_framer_notify
+

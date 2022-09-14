@@ -1,0 +1,100 @@
+[code:th1:7809] thread_event_flag_get_cb()->capturing_frame_time_limit : 364197
+[code:th1:7810] thread_event_flag_get_cb()->latest_captured_frame_time : 96108361 : Current time is 96153851
+[code:th1:7811] turbo command timer setup TURBO_COMMAND_SUB_PERIOD: 318671
+[code:th1:7812] turbo command timer setup TURBO_COMMAND_SUB_PERIOD: 268322
+[code:th1:7813] turbo command timer setup TURBO_COMMAND_SUB_PERIOD: 218221
+[code:th1:7814] turbo command timer setup TURBO_COMMAND_SUB_PERIOD: 168175
+[code:th1:7815] turbo command timer setup TURBO_COMMAND_SUB_PERIOD: 118106
+[code:th1:7816] turbo command timer setup TURBO_COMMAND_SUB_PERIOD: 68088
+[code:th1:7817] turbo command timer setup non TURBO_COMMAND_SUB_PERIOD: 18116
+[code:th1:7818] CAPTURE_MODE_EIS_turbo_command_mechanism_2_check_update
+[code:th1:7819] CAPTURE_MODE_EIS_trubo_command_mechanism_2_get_eis_coeff
+[code:th1:7820] CAPTURE_MODE_EIS_trubo_command_mechanism_2_get_eis_coeff not performed
+[code:th1:7821] CAPTURE_MODE_EIS_turbo_command_mechanism_2_check_update not performed
+[code:th1:7822] CAPTURE Start to wait command 1  at , 96474336
+[code:th1:7823] CAPTURE Finished to wait command 1  at , 96512504
+[code:th1:7824] CAPTURE start to wait command 2  at , 96512572
+[code:th1:7825] CAPTURE Finished to wait command 2  at , 96518230
+[code:th1:7826] CAPTURE mctf_hl_wait_one_picture: start_wait_mctf at , 96529081
+[code:th1:7827] CAPTURE mctf_hl_wait_one_picture: end_wait_mctf at , 96529292
+[code:th1:7828] CAPTURE mctf_hl_wait_one_picture: start_wait_sec_3 at , 96529425
+[code:th1:7829] CAPTURE mctf_hl_wait_one_picture: end_wait_sec_3 at , 96529570
+[code:th1:7830] CAPTURE mctf_hl_wait_one_picture: end_wait_sec_4 at , 96529600
+[code:th1:7831] CAPTURE mctf_hl_wait_one_picture: end_wait_sec_4 at , 96529714
+[code:th1:7832] TH1 MCTF mctf_hl_start_one_picture: start_send_msg at 96529979
+[code:th1:7833] TH1 MCTF mctf_hl_start_one_picture: end_send_msg at 96530371
+[code:th1:7834] TH1 MCTF mctf_hl_start_one_picture: end_start_sec_3 at 96530576
+[code:th1:7835] CAPTURE Finished capture perform  at , 96531233
+[code:th1:7836] TH1 gen_enc_message start at , 96531484
+[code:th1:7837] TH1 gen_enc_message end at , 96532806
+[code:th1:7838] TH1 sendInterrupt  at , 96533611
+[code:th1:7839] CAPTURE CAPTURE_MODE_14_encoder_post_perform_one_capture: no need to process anything since its the cmd_deadliline is not negative at , 96533795
+[code:th1:7840]  preview_state_prev_B_prepare_thread_mode_ex1: prev_A_duplicate_stat is 139 
+[code:th1:7841] CAPTURE start_code_enc_th2_main start  at , 96539325
+[code:th1:7842] CAPTURE start_code_enc_th2_main end  at , 96539625
+[code:th1:7843] CAPTURE Finished capture handling  at , 96539751
+[code:th1:7844] CAPTURE Prepareing the capture cmd here  at , 96539975
+[code:th1:7845] CAPTURE Start compute act win  at , 96542201
+[code:th1:7846]  video_process cfg actual  zoom_y_start_frac 0 zoom_x_start_frac 0
+[code:th1:7847]  video_process cfg actual  VIDEO_PROCESS_WIN_GET_ACT_WIN_HEIGHT 1152 VIDEO_PROCESS_WIN_GET_ACT_WIN_WIDTH 2048
+[code:th1:7848]  video_process cfg actual  VIDEO_PROCESS_WIN_GET_ACT_WIN_LEFT_EDGE 0 VIDEO_PROCESS_WIN_GET_ACT_WIN_TOP_EDGE 0
+[code:th1:7849] CAPTURE finished compute act win  at , 96542517
+[code:th1:7850] capture_calc_cfa_output_for_zooming: *p_cfaOutputNumRows is 1152
+[code:th1:7851] capture_calc_cfa_output_for_zooming: *p_cfaOutputNumCols is 1920
+[code:th2:7852] TH2 MEDIAPROCESS MEDIA_PROCESS_MODE_4_encoder_process_one_round: start to process main at , 96543390
+[code:th2:7853] TH2 MEDIAPROCESS MEDIA_PROCESS_MODE_4_encoder_process_one_round: end to process main at , 96545356
+[code:th2:7854] TH2 MEDIAPROCESS MEDIA_PROCESS_MODE_4_encoder_process_one_round: start to process second at , 96546888
+[code:th2:7855] TH2 MEDIAPROCESS MEDIA_PROCESS_MODE_4_encoder_process_one_round: end to process second at , 96548584
+[code:th1:7856] CAPTURE Finished command preparing  at , 96562953
+[code:th1:7857] thread_event_flag_get_cb()->capturing_frame_time_limit : 364197
+[code:th1:7858] thread_event_flag_get_cb()->latest_captured_frame_time : 96518409 : Current time is 96563194
+[code:th1:7859] turbo command timer setup TURBO_COMMAND_SUB_PERIOD: 319378
+[code:th1:7860] turbo command timer setup TURBO_COMMAND_SUB_PERIOD: 269086
+[code:th1:7861] turbo command timer setup TURBO_COMMAND_SUB_PERIOD: 218970
+[code:th1:7862] turbo command timer setup TURBO_COMMAND_SUB_PERIOD: 168927
+[code:th1:7863] turbo command timer setup TURBO_COMMAND_SUB_PERIOD: 118865
+[code:th1:7864] turbo command timer setup TURBO_COMMAND_SUB_PERIOD: 68890
+[code:th1:7865] turbo command timer setup non TURBO_COMMAND_SUB_PERIOD: 18899
+[code:th1:7866] CAPTURE_MODE_EIS_turbo_command_mechanism_2_check_update
+[code:th1:7867] CAPTURE_MODE_EIS_trubo_command_mechanism_2_get_eis_coeff
+[code:th1:7868] CAPTURE_MODE_EIS_trubo_command_mechanism_2_get_eis_coeff not performed
+[code:th1:7869] CAPTURE_MODE_EIS_turbo_command_mechanism_2_check_update not performed
+[code:th1:7870] CAPTURE Start to wait command 1  at , 96884129
+[code:th1:7871] CAPTURE Finished to wait command 1  at , 96922551
+[code:th1:7872] CAPTURE start to wait command 2  at , 96922620
+[code:th1:7873] CAPTURE Finished to wait command 2  at , 96928236
+[code:th1:7874] CAPTURE mctf_hl_wait_one_picture: start_wait_mctf at , 96939083
+[code:th1:7875] CAPTURE mctf_hl_wait_one_picture: end_wait_mctf at , 96939302
+[code:th1:7876] CAPTURE mctf_hl_wait_one_picture: start_wait_sec_3 at , 96939436
+[code:th1:7877] CAPTURE mctf_hl_wait_one_picture: end_wait_sec_3 at , 96939580
+[code:th1:7878] CAPTURE mctf_hl_wait_one_picture: end_wait_sec_4 at , 96939610
+[code:th1:7879] CAPTURE mctf_hl_wait_one_picture: end_wait_sec_4 at , 96939722
+[code:th1:7880] TH1 MCTF mctf_hl_start_one_picture: start_send_msg at 96939989
+[code:th1:7881] TH1 MCTF mctf_hl_start_one_picture: end_send_msg at 96940381
+[code:th1:7882] TH1 MCTF mctf_hl_start_one_picture: end_start_sec_3 at 96940585
+[code:th1:7883] CAPTURE Finished capture perform  at , 96941233
+[code:th1:7884] TH1 gen_enc_message start at , 96941487
+[code:th1:7885] TH1 gen_enc_message end at , 96942832
+[code:th1:7886] TH1 sendInterrupt  at , 96943647
+[code:th1:7887] CAPTURE CAPTURE_MODE_14_encoder_post_perform_one_capture: no need to process anything since its the cmd_deadliline is not negative at , 96943825
+[code:th1:7888]  preview_state_prev_B_prepare_thread_mode_ex1: prev_A_duplicate_stat is 140 
+[code:th1:7889] CAPTURE start_code_enc_th2_main start  at , 96949446
+[code:th1:7890] CAPTURE start_code_enc_th2_main end  at , 96949749
+[code:th1:7891] CAPTURE Finished capture handling  at , 96949874
+[code:th1:7892] CAPTURE Prepareing the capture cmd here  at , 96950159
+[code:th1:7893] CAPTURE Start compute act win  at , 96952249
+[code:th1:7894]  video_process cfg actual  zoom_y_start_frac 0 zoom_x_start_frac 0
+[code:th1:7895]  video_process cfg actual  VIDEO_PROCESS_WIN_GET_ACT_WIN_HEIGHT 1152 VIDEO_PROCESS_WIN_GET_ACT_WIN_WIDTH 2048
+[code:th1:7896]  video_process cfg actual  VIDEO_PROCESS_WIN_GET_ACT_WIN_LEFT_EDGE 0 VIDEO_PROCESS_WIN_GET_ACT_WIN_TOP_EDGE 0
+[code:th1:7897] CAPTURE finished compute act win  at , 96952566
+[code:th1:7898] capture_calc_cfa_output_for_zooming: *p_cfaOutputNumRows is 1152
+[code:th1:7899] capture_calc_cfa_output_for_zooming: *p_cfaOutputNumCols is 1920
+[code:th2:7900] TH2 MEDIAPROCESS MEDIA_PROCESS_MODE_4_encoder_process_one_round: start to process main at , 96953421
+[code:th2:7901] TH2 MEDIAPROCESS MEDIA_PROCESS_MODE_4_encoder_process_one_round: end to process main at , 96955268
+[code:th2:7902] TH2 MEDIAPROCESS MEDIA_PROCESS_MODE_4_encoder_process_one_round: start to process second at , 96957799
+[code:th2:7903] TH2 MEDIAPROCESS MEDIA_PROCESS_MODE_4_encoder_process_one_round: end to process second at , 96959635
+[code:th1:7904] CAPTURE Finished command preparing  at , 96972999
+[code:th1:7905] thread_event_flag_get_cb()->capturing_frame_time_limit : 364197
+[code:th1:7906] thread_event_flag_get_cb()->latest_captured_frame_time : 96928379 : Current time is 96973262
+[code:th1:7907] turbo command timer setup TURBO_COMMAND_SUB_PERIOD: 319269
+[code:th1:7908] turbo command timer setup TURBO_COMMAND_SUB_PERIOD: 268815

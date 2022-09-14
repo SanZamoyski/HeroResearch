@@ -1,0 +1,34 @@
+[0m
+[0m[00004318] boss: atag = c3000000, 00001000[0m
+[0m[00004323] boss: cmdline: console=tty0  lpj=2334720 ubi.mtd=lnx root=ubi0:linux rootfstype=ubifs boss=0xc5f00000 hal=0xc00a0000,0xfee00000,0x00000000 ethmac=00:00:00:00:00:00[0m
+[0m[00004343] boss: mem = c3000000, 03000000[0m
+[0m[00004348] boss: initrd = 00000000, 00000000[0m
+[0m[00004353] boss: bst = 00000000, 00000000[0m
+[0m[00004359] boss: eth0 = 00000000 00000000[0m
+[0m[00004364] boss: eth1 = 00000000 00000000[0m
+[0m[00004369] boss: wifi = 00000000 00000000[0m
+[0m[00004374] boss: ueth = 00000000 00000000[0m
+[0m[00004379] boss: revision = 13ec4029[0m
+[0m[00004383] boss: NAND_CS = 02e00140 00020000[0m
+[0m[00004388] boss: NAND_T0 = 03030503 02020202[0m
+[0m[00004395] boss: NAND_T1 = 03031805 03031803[0m
+[0m[00004400] boss: NAND_T2 = 04030f01 00190702[0m
+[0m[00004405] boss: reserv mem = c5f00000, 00100000[0m
+[0m[00004410] boss: Boot Linux kernel[0m
+[0m[00004414] vdsp short, delta 23, ideal should > 27[0m
+[0m[00004417] boss_boot_guest() takes 3 ms[0m
+[0m[00004429] vdsp short, delta 15, ideal should > 27[0m
+[0m[00004429] keep original commands in command area[0m
+[0m[00004448] ambernation_nand_read_head: Read metadata from NAND 632:634[0m
+[0m[00005136] ambernation_nand_read_data: Read 12386304 Bytes from NAND 635:729[0m
+[0m[00005144] boss_guest_ctx.pc = 0x8003b0f4[0m
+[0m[00005175] ipc: ready = 1[0m
+[0m[00005176] ipc_svc: Linux abresume success.[0m
+[0m[00005732] FRMON_VDSP: 3009ms past validating Vdsp monitor.[0m
+[0;34m[00005946] new argp->ver == ab02[0m
+[0m[00005946] [36m[app_id=2, msg=0xF4030029, p1=0x00000000, p2=0x00000000, HMSG_ID_APPFLOW, AMSG_CMD_BOSS_BOOTED][m	[0m
+[0;34m[00005946] Received AMSG_CMD_BOSS_BOOTED[0m
+[0m[00005946] BB################### stop vf[0m
+[0;31m[00006998] ========= Start web server End !![0m
+[0m[00007000] [36m[app_id=2, msg=0xF700001C, p1=0x00000000, p2=0x00000000, HMSG_USER_SET_VIEWFINDER, ][m	[0m
+[0;34m[00007001] app_hls_get_status: 1[0m

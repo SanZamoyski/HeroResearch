@@ -1,0 +1,5 @@
+Usage: ramdisk setup <size in KB>
+       ramdisk create <file>
+       ramdisk save <file>
+       ramdisk status
+       ramdisk destroy

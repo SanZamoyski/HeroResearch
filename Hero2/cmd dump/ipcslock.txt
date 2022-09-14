@@ -1,0 +1,1 @@
+Usage: ipcslock [create|lock|unlock|test] slock id

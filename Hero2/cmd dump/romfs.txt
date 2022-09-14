@@ -1,0 +1,6 @@
+Usage: ls - list ROMFS files
+       inodes - list ROMFS inode tree
+       load [name] [addr] - load data to memory
+       save [slot] [name|all] [fpos]- save file to storage
+       log_init [slot] - log the statistics of ROMFS initialized flag
+       log_vf [slot] [name1] [name2]- log the statistics of ROMFS file verification. Where name1 specify the romfs name to be save and name2 specify the file to be compared

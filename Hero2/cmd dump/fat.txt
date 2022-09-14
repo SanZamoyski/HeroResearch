@@ -1,0 +1,4 @@
+Usage: fat log [enable|show|clear]
+Usage: fat search [file_pattern] [flag]
+Usage: fat table [show|clear|release|list]
+Usage: fat cmd [exec|ls][cmd] [param]
