@@ -4,6 +4,7 @@ Some GoPro Hero findouts
 ## Inspired by:
 - https://github.com/silent3rror/GoProFirmwareArchive
 - https://github.com/KonradIT/autoexechack
+- https://github.com/KonradIT/gopro-firmware/tree/master/HERO2
 
 ## Hero2 findings:
 - 't app power_saving' on GoPro Hero2 unfortunately probably does nothing. 
